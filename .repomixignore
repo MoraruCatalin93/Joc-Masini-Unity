@@ -1,0 +1,66 @@
+# Unity Meta files (cel mai important: consuma zeci de mii de tokeni fara utilitate pentru logica de cod)
+*.meta
+
+# Modele 3D si animatii
+*.fbx
+*.obj
+*.blend
+*.dae
+*.3ds
+*.max
+*.anim
+*.controller
+
+# Texturi, imagini si UI
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.psd
+*.tif
+*.tiff
+*.hdr
+*.exr
+*.svg
+*.ico
+
+# Audio si Video
+*.mp3
+*.wav
+*.ogg
+*.aif
+*.flac
+*.mp4
+*.mov
+*.avi
+
+# Fonturi
+*.ttf
+*.otf
+
+# Fisiere de scena si prefab-uri (daca vrei sa analizezi DOAR codul C# si logica)
+# Daca ai nevoie ca LLM-ul sa vada legaturile din scene/prefabb-uri, poti sterge sau comenta urmatoarele 3 linii:
+*.unity
+*.prefab
+*.asset
+
+# Shadere compilate sau binare
+*.compute
+*.shadergraph
+*.subgraph
+
+# Asset-uri terte / plugin-uri mari din Assets (ajusteaza daca folosesti directoare specifice)
+Assets/Plugins/
+Assets/AssetStore/
+Assets/TextMesh Pro/
+
+# Fisiere de mediu sau pachete arhivate
+*.unitypackage
+*.zip
+*.tar.gz
+
+# Repomix output insusi (pentru a nu se auto-include la rulari repetate)
+repomix-output.txt
+repomix-output.xml
+repomix-output.json
+repomix-output.md
